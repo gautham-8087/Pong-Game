@@ -1,0 +1,33 @@
+body {
+    background: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#pongCanvas {
+    background: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px #000;
+}
+
+.scoreboard {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.scoreboard span {
+    margin: 0 25px;
+}
